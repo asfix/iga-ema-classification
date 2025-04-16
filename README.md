@@ -5,4 +5,4 @@ scenarios using immunofluorescence images. Our experiments on 254 clinical sampl
 
 # Code Usage
 
-This code is ready to be used without any command line parameters. Just change wandb_project_name for wandb project, data_directory for 5-fold cross-validatin train data folder.
+This code is ready to be used without any command line parameters. Just change wandb_project_name for "wandb" project, data_directory for the 5-fold cross-validation train data folder. You can also change the epoch count and the target models  ['efficientnet-b0' to 'efficientnet-b7', 'efficientnetv2_s', 'efficientnetv2_m', 'efficientnetv2_l']
