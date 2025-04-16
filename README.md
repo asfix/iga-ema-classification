@@ -6,3 +6,7 @@ scenarios using immunofluorescence images. Our experiments on 254 clinical sampl
 # Code Usage
 
 This code is ready to be used without any command line parameters. Just change wandb_project_name for "wandb" project, data_directory for the 5-fold cross-validation train data folder. You can also change the epoch count and the target models  ['efficientnet-b0' to 'efficientnet-b7', 'efficientnetv2_s', 'efficientnetv2_m', 'efficientnetv2_l']
+
+# Benchmarking
+
+You can also do a benchmark with the study of Caetano dos Santos, F. L., Michalek, I. M., Laurila, K., Kaukinen, K., Hyttinen, J., and Lindfors, K. (2019). Automatic classification of iga endomysial antibody test for celiac disease: a new method deploying machine learning. Scientific reports, 9(1):9217. The code for it was produced and deployed into santos_code.
